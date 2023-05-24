@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: linear-gradient(to right ,rgb(62, 62, 206) ,violet);
+}
+#form{
+    margin: 5vh auto 0 auto;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#form h3{
+    padding-top: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.input-group{
+  
+    width: 100%;
+    padding: 22px;
+}
+.btnu{
+    text-align: center;
+    background-image: linear-gradient(to right ,rgb(88, 88, 214) ,violet);
+    margin: 20px;
+    position: relative;
+    bottom: 20px;
+    border-radius: 20px;
+}
+
+.input-group input{
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   width: 100%;
+   border-color: gray;
+   border-width: 2px;
+}
+.input-group textarea{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+    resize: none;
+    border-color: grey;
+    border-width: 2px;
+ }
+
+ .input-group select{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+    border-color: grey;
+    border-width: 2px;
+ }
+.input-group input:focus{
+    outline: 0;
+   
+}
+.input-group textarea:focus{
+    outline: 0;
+   
+}
+.input-group select:focus{
+    outline: 0;
+   
+}
+.input-group .error{
+    color: red;
+}
+.input-group.success input{
+    border-color: rgb(9, 245, 9);
+}
+.input-group.error input{
+    border-color: red;
+}
+.icon{
+    position: relative;
+    bottom: 30px;
+    left: 100%;
+}
